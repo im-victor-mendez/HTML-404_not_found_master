@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.error {
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-top: 8%;
+}
+
+img{
+    max-width: 50%;
+}
+
+#error {
+    font-family: Space Mono;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin: auto;
+}
+
+#resume {
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
+
+.explanation button {
+    background: #333333;
+    border: 0;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
